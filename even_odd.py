@@ -1,4 +1,4 @@
-number = input("please input int only : ")
+number = input("please input int only : \n")
 
 if int(number) % 2 == 0 :
     print("偶數")

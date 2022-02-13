@@ -2,7 +2,7 @@ while(True):
 
     temp_type = input("Please input temperature type [C (celsius) or F (fahrenheit)] :\n")
 
-    if temp_type in ['C', 'celsius']:
+    if temp_type in ['C', 'celsius']: # if temp_type == 'C' or temp_type == 'celsius':
 
         celsius_temp = input("Please input temperature :\n")
         fahrenheit_temp = int(celsius_temp) * 1.8 + 32
